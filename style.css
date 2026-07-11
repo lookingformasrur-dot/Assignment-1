@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 
 html {
@@ -248,9 +249,7 @@ nav ul a:hover {
   color: #111111;
   text-align: left;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
-  transition:
-    transform 0.3s ease,
-    box-shadow 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .upgrade-plan-card:hover {
@@ -293,6 +292,7 @@ nav ul a:hover {
   margin-bottom: 12px;
   color: #333333;
   line-height: 1.5;
+  list-style: disc;
 }
 
 .plan-card-btn {
@@ -315,7 +315,10 @@ nav ul a:hover {
   color: white;
 }
 
-.pro-card h5,
+.pro-card h5 {
+  color: #769aea;
+}
+
 .pro-card p,
 .pro-card li {
   color: white;
